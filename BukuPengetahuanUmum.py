@@ -8,4 +8,4 @@ class BukuPengetahuanUmum(Buku):
         
     def menampilkan_informasi_buku(self):
         super().menampilkan_informasi_buku()
-        print(f"Kode Buku Pengetahuan Umum: {self.__buku_pu}")
+        print(f"Buku Pengetahuan Umum: {self.__buku_pu}")
